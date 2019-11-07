@@ -1,0 +1,13 @@
+{
+  "bookingid": 12,
+  "depositpaid": true,
+  "email": "chocolate@factory.com",
+  "firstname": "Willie",
+  "lastname": "Wonka",
+  "phone": "555555111222333",
+  "roomid": 32,
+  "bookingdates": {
+    "checkin": "2019-11-09",
+    "checkout": "2019-11-10"
+  }
+}
