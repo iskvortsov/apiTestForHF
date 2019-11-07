@@ -35,8 +35,9 @@ public class MainTest {
         createBooking(bookingRequestOne);
 
 //        Creating second request and changing it's dates
-        Booking bookingRequestTwo = bookingRequestOne;
+        Booking bookingRequestTwo = FileReader.getBookingFromTemplate(templatePath);
 
+        bookingRequestTwo.roomid = roomId;
         bookingRequestTwo.bookingdates.checkin = LocalDate.now().plusDays(2).toString();
         bookingRequestTwo.bookingdates.checkout = LocalDate.now().plusDays(3).toString();
         createBooking(bookingRequestTwo);
