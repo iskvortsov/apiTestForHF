@@ -2,11 +2,11 @@
 
 I've created the following tests:
 
-  1) _getBookings_: Test that at least 2 existing bookings are returned in the response.
+  1) getBookings: Test that at least 2 existing bookings are returned in the response.
 
-  2) _getBooking_: Test that the data returned for an existing booking matches.
+  2) getBooking: Test that the data returned for an existing booking matches.
 
-  3) _createBooking_: Test that bookings can be created.
+  3) createBooking: Test that bookings can be created.
 
 I would create tests for _updateBooking_ and _deleteBooking_ endpoints but I couldn't get them to work using swagger web spec.
 I'm getting 403 Forbidden for any correct request.
