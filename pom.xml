@@ -11,7 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>4.11</junit.version>
         <jackson.mapper.version>1.9.13</jackson.mapper.version>
-        <apache.http.client.version>4.5.10</apache.http.client.version>
+        <apache.http.client.version>4.5.13</apache.http.client.version>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <joda.version>2.10.5</joda.version>
